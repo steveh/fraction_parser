@@ -5,12 +5,12 @@
 
 Gem::Specification.new do |s|
   s.name = %q{fraction_parser}
-  s.version = "0.0.2"
+  s.version = "0.0.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Steve Hoeksema"]
   s.date = %q{2010-04-16}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Parses fractions and converts them to Rational}
   s.email = %q{steve@seven.net.nz}
   s.extra_rdoc_files = [
     "LICENSE",
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "fraction_parser.gemspec",
      "lib/fraction_parser.rb",
      "spec/fraction_parser_spec.rb",
      "spec/spec.opts",
@@ -32,7 +33,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.6}
-  s.summary = %q{Parses fractions and converts them to decimal}
+  s.summary = %q{Parses fractions and converts them to Rational}
   s.test_files = [
     "spec/fraction_parser_spec.rb",
      "spec/spec_helper.rb"
