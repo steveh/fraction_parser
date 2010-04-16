@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "fraction_parser"
-    gem.summary = %Q{Parses fractions and converts them to decimal}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Parses fractions and converts them to Rational}
+    gem.description = %Q{Parses fractions and converts them to Rational}
     gem.email = "steve@seven.net.nz"
     gem.homepage = "http://github.com/steveh/fraction_parser"
     gem.authors = ["Steve Hoeksema"]
