@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{fraction_parser}
-  s.version = "0.0.3"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Steve Hoeksema"]
-  s.date = %q{2010-04-16}
+  s.date = %q{2010-04-21}
   s.description = %q{Parses fractions and converts them to Rational}
   s.email = %q{steve@seven.net.nz}
   s.extra_rdoc_files = [
